@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1 {
+  color: #c10000;
+  font-size: 90px;
+  margin: 50px auto 0 auto;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.headerSub {
+  color: #c10000;
+  font-weight: normal;
+}
+
+h2 {
+  color: #dedede;
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #dedede;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  color: white;
+  line-height: 2;
+}
+
+hr{
+  border-color: #c10000;
+  border-width: 10px;
+  border-style: dashed none none;
+  height: 0;
+  width: 20%;
+  margin: 100px auto;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.topContainer {
+  background-color: #dedede;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pictureFrame {
+  border-radius: 100%;
+  box-shadow: 10px 5px 5px #c10000;
+  margin-top: 10px;
+}
+
+.keyboardPic {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.beerPic {
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.middleContainer {
+  background-color: #ff4949;
+  padding: 100px 0;
+}
+
+.bottomContainer {
+  background-color: #c10000;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.contact-message{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.footer-link {
+  color: #dedede;
+  margin: 10px 20px;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #ff4949;
+}
+
+.btn {
+  background: #c10000;
+  background-image: -webkit-linear-gradient(top, #c10000, black);
+  background-image: -moz-linear-gradient(top, #c10000, black);
+  background-image: -ms-linear-gradient(top, #c10000, black);
+  background-image: -o-linear-gradient(top, #c10000, black);
+  background-image: linear-gradient(to bottom, #c10000, black);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c10000;
+  background-image: -webkit-linear-gradient(top, #c10000, #c10000);
+  background-image: -moz-linear-gradient(top, #c10000, #c10000);
+  background-image: -ms-linear-gradient(top, #c10000, #c10000);
+  background-image: -o-linear-gradient(top, #c10000, #c10000);
+  background-image: linear-gradient(to bottom, #c10000, #c10000);
+  text-decoration: none;
+}
+
+.copyright{
+  color: #dedede;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 0;
+}
